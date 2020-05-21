@@ -11,7 +11,7 @@ const h1 = document.querySelector(`h1`);
 h1.style.color = randomRGB();
 setInterval(function() {
     h1.style.color = randomRGB();
-}, 500);
+}, 2000);
 
 const letters = document.querySelectorAll(`.letter`);
 
@@ -20,4 +20,4 @@ setInterval(function() {
         letter.style.color = randomRGB();
     }
 
-}, 500)
+}, 2000)
